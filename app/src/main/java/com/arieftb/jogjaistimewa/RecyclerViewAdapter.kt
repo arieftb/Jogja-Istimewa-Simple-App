@@ -8,6 +8,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
+import kotlinx.android.synthetic.main.list_item_culinary.view.*
 
 class RecyclerViewAdapter(private val context: Context, private val culinaryList: List<Culinary>) :
     RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>() {
@@ -22,8 +23,8 @@ class RecyclerViewAdapter(private val context: Context, private val culinaryList
 
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 
-        private val culinaryName = view.findViewById<TextView>(R.id.text_culinary_name)
-        private val culinaryImage = view.findViewById<ImageView>(R.id.image_culinary_thumb)
+        private val culinaryName = view.text_culinary_name
+        private val culinaryImage = view.image_culinary_thumb
 
         fun bind(culinary: Culinary) {
             culinaryName.text = culinary.culinaryName
