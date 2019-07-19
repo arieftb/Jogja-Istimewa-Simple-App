@@ -2,4 +2,19 @@
     <string name="app_name">Jogja Istimewa</string>
     <string name="content_culinary_item_photo">Culinary Item Photo</string>
 
+    <string-array name="culinary_name">
+        <item>Sate Klathak Pak Bari</item>
+        <item>Gudeg Yu Djum</item>
+        <item>Mie Lethek Mbah Mendes</item>
+        <item>Bakmi Mbah Mo</item>
+        <item>Mangut Lele Mbah Marto</item>
+    </string-array>
+
+    <string-array name="culinary_image">
+        <item>@drawable/img_sate_klatak_pak_bari</item>
+        <item>@drawable/img_gudheg_yu_djum</item>
+        <item>@drawable/img_mie_lethek_mbah_mendes</item>
+        <item>@drawable/img_mie_lethek_mbah_mendes</item>
+        <item>@drawable/img_mie_lethek_mbah_mendes</item>
+    </string-array>
 </resources>
